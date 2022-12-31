@@ -4,6 +4,7 @@
   --slate: #434455;
   --cloud: #f4f4fd;
   --cornflower: #e7e9fc;
+  --ocean: #404bbf;
 }
 
 body {
@@ -144,9 +145,40 @@ body {
   font-size: 16px;
   line-height: 24px;
 }
+.btn-portfolio {
+  color: var(--iris);
+  background-color: var(--cloud);
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border-color: rgba(231, 233, 252, 0.1);
+  border-radius: 4px;
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  color: #ffffff;
+  background-color: var(--ocean);
+}
+.section-portfolio a > h2 {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.section-portfolio a > p {
+  color: var(--slate);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 li {
   list-style: none;
 }
 a {
+  font-family: "Roboto";
+  font-style: normal;
   text-decoration: none;
 }
