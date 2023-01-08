@@ -206,12 +206,10 @@ body {
   list-style: none;
 }
 .menu-link {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   text-decoration: none;
+  color: var(--navy-blue);
 }
 .menu-name {
-  color: var(--navy-blue);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
