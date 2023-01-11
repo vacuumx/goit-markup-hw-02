@@ -182,7 +182,6 @@ body {
 .btn-portfolio {
   font-family: "Roboto", sans-serif;
   color: var(--iris);
-  font-style: normal;
   background-color: var(--cloud);
   letter-spacing: 0.04em;
   font-weight: 500;
