@@ -17,12 +17,6 @@ body {
 
 .header-web {
   color: var(--iris);
-  font-family: raleway, sans-serif;
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.33;
-  letter-spacing: 0.03em;
 }
 .header-logo {
   text-decoration: none;
@@ -54,7 +48,6 @@ body {
 .header-contact {
   color: var(--slate);
   font-style: normal;
-  font-family: "roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
@@ -87,8 +80,7 @@ body {
 }
 .order-btn:focus,
 .order-btn:hover {
-  background-color: #404bbf;
-  cursor: pointer;
+  background-color: var(--ocean);
 }
 
 
@@ -121,7 +113,6 @@ body {
   background-color: var(--cloud);
 }
 .team-title {
-  color: var(--navy-blue);
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -133,7 +124,6 @@ body {
   background-color: var(--white);
 }
 .subject-name {
-  color: var(--navy-blue);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -150,12 +140,6 @@ body {
 }
 .footer-web {
   color: var(--iris);
-  font-family: raleway, sans-serif;
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.33;
-  letter-spacing: 0.03em;
 }
 .footer-logo {
   color: var(--cloud);
@@ -165,7 +149,6 @@ body {
   font-weight: 800;
   line-height: 1.33;
   letter-spacing: 0.03em;
-  font-style: normal;
   text-decoration: none;
 }
 .footer-text {
@@ -196,7 +179,6 @@ body {
 .btn-portfolio:focus {
   color: var(--white);
   background-color: var(--ocean);
-  cursor: pointer;
 }
 .menu {
   list-style: none;
